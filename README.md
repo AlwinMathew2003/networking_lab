@@ -2,7 +2,7 @@
 ## [Jyothi Engineering College, Cheruthuruthy, Thrissur, Kerala](https://jecc.ac.in/)
 ### [Department of Computer Science & Engineering](https://jecc.ac.in/departments/computer_science_engineering)
 #### 2021 - 2025 (A) Batch
-##### February 2023 - July 2023
+##### February 2024 - July 2024
 ---
 ## [![](https://img.shields.io/badge/Source%20Code-Download_Link-brightgreen)](https://github.com/AlwinMathew2003/networking_lab)
 
