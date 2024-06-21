@@ -1,4 +1,5 @@
 # CSL 204 Networking Lab - Program List
+### **KTU 2019 SCHEME**
 ## [Jyothi Engineering College, Cheruthuruthy, Thrissur, Kerala](https://jecc.ac.in/)
 ### [Department of Computer Science & Engineering](https://jecc.ac.in/departments/computer_science_engineering)
 #### 2021 - 2025 (A) Batch
@@ -76,3 +77,4 @@
     4. Configure static routing along with two dynamic routing protocols in 5 Routers (which are connected in a loop).
 
 ---
+[**Operating System Lab**](https://oslabc.netlify.app/) [**Data Structure Lab**](https://dsalab.netlify.app/).
