@@ -15,7 +15,7 @@
 [![](https://img.shields.io/badge/CISCO%20%20PACKET%20%20TRACER-Installation%20on%20Windows%20-yellow)](https://github.com/AlwinMathew2003/networking_lab/blob/main/cisco_packet_tracer.pdf)
 
 ---
-[![](https://img.shields.io/badge/Cycle-1-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-1)
+[![](https://img.shields.io/badge/Cycle-1-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Cycle-1)
 
 1. To study the basics of UNIX/**LINUX Basic Networking Commands**.
 2. **TCP & UDP programs**
@@ -32,7 +32,7 @@
     10. Write a C program to implement a echo server using TCP.
     11. Write a C program to implement a broadcast server using TCP.
 ---
-[![](https://img.shields.io/badge/Cycle-2-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-2)
+[![](https://img.shields.io/badge/Cycle-2-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Cycle-2)
 
 3. **CISCO PACKET TRACER**
 
@@ -46,7 +46,7 @@
     8. Configure static routing in Cisco Packet Tracer. Provide a step-by-step guide to manually setting up static routes on routers and demonstrate how packets are routed across different network segments.
 
 ---
-[![](https://img.shields.io/badge/Cycle-3-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-3)
+[![](https://img.shields.io/badge/Cycle-3-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Cyle-3)
 
 4. **Implementing ARQ Protocols**
 
@@ -56,7 +56,7 @@
         3. Create Selective Repeat ARQ using sliding windows to maintain packet order.
     
 ---
-[![](https://img.shields.io/badge/Extra-Questions-blue)](https://github.com/paulshaiju/oslab/tree/master/Cycle-4)
+[![](https://img.shields.io/badge/Extra-Questions-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Extra-questions)
 
 5. **Socket Programming**
 
