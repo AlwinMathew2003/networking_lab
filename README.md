@@ -77,4 +77,5 @@
     4. Configure static routing along with two dynamic routing protocols in 5 Routers (which are connected in a loop).
 
 ---
-[**Operating System Lab**](https://oslabc.netlify.app/) [**Data Structure Lab**](https://dsalab.netlify.app/).
+[**Operating System Lab**](https://oslabc.netlify.app/) 
+[**Data Structure Lab**](https://dsalab.netlify.app/).
