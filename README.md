@@ -8,7 +8,7 @@
 
 [![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/AlwinMathew2003/networking_lab/blob/main/S6%20lab.pdf)
 
-[![](https://img.shields.io/badge/Programs%20%26%20Viva%20by-%20Shaiju%20Paul%2C%20Alwin%20Mathew%2C%20Athul%20Murali-orange)](mailto:paulson@jecc.ac.in,alwinmathew.cse21@jecc.ac.in,athul.cse21@jecc.ac.in)
+[![](https://img.shields.io/badge/Programs%20%26%20Viva%20by-%20Alwin%20Mathew%2C%20Athul%20Murali-orange)](mailto:alwinmathew.cse21@jecc.ac.in,athul.cse21@jecc.ac.in)
 
 [![](https://img.shields.io/badge/GCC%20%26%20GEANY-Installation%20on%20Windows%20-yellow)](https://github.com/paulshaiju/oslab/blob/master/INSTALL_gcc_geany_on_windows.pdf)
 
