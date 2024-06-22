@@ -63,7 +63,7 @@
 ---
 [![](https://img.shields.io/badge/Extra-Questions-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Extra-questions)
 
-6. **Socket Programming**
+6. [**Socket Programming**](https://github.com/AlwinMathew2003/networking_lab/tree/main/Extra-questions/extra_programs)
 
     1. Write a C program to find the factorial of a number using TCP socket?
     2. Write a C program to find the factorial of a number using UDP socket?
@@ -72,7 +72,7 @@
     5. Write a C program to print the reverse of a string using TCP socket?
     6. Write a C program to find the fibonacci series of a number using TCP socket?
 
-7. **Cisco Packet Tracer**
+7. [**Cisco Packet Tracer**](https://github.com/AlwinMathew2003/networking_lab/tree/main/Extra-questions/extra_cisco)
 
     1. Configure 2 FTP-clients, to send and receive any text file. Send an Email from one client to another client PC.
      Use an DHCP server to provide IP addresses to all end user devices.
