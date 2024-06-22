@@ -90,4 +90,4 @@
 4. Cisco Extra questions
 ---
 ### **OTHER LABS**
-[**C Lab**](https://clab.netlify.app/)&emsp;&emsp;[**Java Lab**](https://oopslab.netlify.app/)&emsp;&emsp;[**Operating System Lab**](https://oslabc.netlify.app/)&emsp;&emsp;[**Data Structure Lab**](https://dsalab.netlify.app/).
+[**C Lab**](https://clab.netlify.app/)&emsp;&emsp;[**Java Lab**](https://oopslab.netlify.app/)&emsp;&emsp;[**Operating System Lab**](https://oslabc.netlify.app/)&emsp;&emsp;[**Data Structure Lab**](https://dsalab.netlify.app/).&emsp;&emsp;[**System Software and Microprocessor Lab**](https://masm-8086.netlify.app/)
