@@ -7,7 +7,7 @@
 ---
 ## [![](https://img.shields.io/badge/Source%20Code-Download_Link-brightgreen)](https://github.com/AlwinMathew2003/networking_lab)
 
-[![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/AlwinMathew2003/networking_lab/blob/main/S6%20lab.pdf)
+[![](https://img.shields.io/badge/Viva%20Voce-Questions-violet)](https://github.com/AlwinMathew2003/networking_lab/blob/main/nwlab_viva_questions.pdf)
 
 [![](https://img.shields.io/badge/Programs%20%26%20Viva%20by-%20Alwin%20Mathew%2C%20Adithya%20E%2C%20Athul%20Murali-orange)](mailto:adithya.cse21@jecc.ac.in,alwinmathew.cse21@jecc.ac.in,athul.cse21@jecc.ac.in)
 
@@ -19,7 +19,9 @@
 [![](https://img.shields.io/badge/Cycle-1-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Cycle-1)
 
 1. To study the basics of UNIX/**LINUX Basic Networking Commands**.
-2. **TCP & UDP programs**
+2. [**Introduction to Socket Programming in C**](https://github.com/AlwinMathew2003/networking_lab/blob/main/Cycle-1/socket_program_introduction.pdf)
+
+3. **TCP & UDP programs**
 
     1. Write a C program to implement a simple TCP Client-Server program.
     2. Write a C program to implement a simple UDP Client-Server program.
@@ -35,7 +37,9 @@
 ---
 [![](https://img.shields.io/badge/Cycle-2-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Cycle-2)
 
-3. **CISCO PACKET TRACER**
+
+
+4. **CISCO PACKET TRACER**
 
     1. Configure an FTP server in Cisco Packet Tracer. Describe the steps and configurations required to set up the FTP server and demonstrate file transfer operations between the server and a client.
     2. Configure a DHCP server in Cisco Packet Tracer. Detail the process for setting up the server, including IP address pool creation, and show how clients obtain IP addresses dynamically. 
@@ -49,7 +53,7 @@
 ---
 [![](https://img.shields.io/badge/Cycle-3-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Cyle-3)
 
-4. **Implementing ARQ Protocols**
+5. **Implementing ARQ Protocols**
 
     1. Write a C program to implement three ARQ protocols for reliable data transmission:
         1. Implement Stop and Wait ARQ with error checking.
@@ -59,7 +63,7 @@
 ---
 [![](https://img.shields.io/badge/Extra-Questions-blue)](https://github.com/AlwinMathew2003/networking_lab/tree/main/Extra-questions)
 
-5. **Socket Programming**
+6. **Socket Programming**
 
     1. Write a C program to find the factorial of a number using TCP socket?
     2. Write a C program to find the factorial of a number using UDP socket?
@@ -77,6 +81,13 @@
     4. Configure static routing along with two dynamic routing protocols in 5 Routers (which are connected in a loop).
 
 ---
-[**Operating System Lab**](https://oslabc.netlify.app/) 
 
-[**Data Structure Lab**](https://dsalab.netlify.app/).
+[![](https://img.shields.io/badge/Program-Prinouts-purple)](https://github.com/AlwinMathew2003/networking_lab/tree/main/printout)
+
+1. Solutions for Internal Lab Exam
+2. Algorithms for All programs
+3. Programs and outputs printouts
+4. Cisco Extra questions
+---
+### **OTHER LABS**
+[**C Lab**](https://clab.netlify.app/)&emsp;&emsp;[**Java Lab**](https://oopslab.netlify.app/)&emsp;&emsp;[**Operating System Lab**](https://oslabc.netlify.app/)&emsp;&emsp;[**Data Structure Lab**](https://dsalab.netlify.app/).
