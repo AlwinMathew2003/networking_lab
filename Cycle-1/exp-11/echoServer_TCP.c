@@ -1,80 +1,78 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/socket.h>
-#include <sys/types.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
+#include<stdio.h>
+#include<string.h>
+#include<sys/types.h>
+#include<arpa/inet.h>
+#include<stdlib.h>
+#include<unistd.h>
+#define port 5000
 
-#define PORT 4444
-
-int main(){
-
-	int sockfd, ret;
-	 struct sockaddr_in serverAddr;
-
-	int newSocket;
-	struct sockaddr_in newAddr;
-
-	socklen_t addr_size;
-
-	char buffer[1024];
-	pid_t childpid;
-
-	sockfd = socket(AF_INET, SOCK_STREAM, 0);
-	if(sockfd < 0){
-		printf("[-]Error in connection.\n");
-		exit(1);
+void main(){
+	struct sockaddr_in serveraddr,newaddr;
+	int sersocket,newsocket,s;
+	int size = sizeof(newaddr);
+	pid_t child;
+	char buffer[100];
+	
+	sersocket = socket(AF_INET,SOCK_STREAM,0);
+	
+	if(sersocket>0)
+	{
+		printf("\nSocket is created");
 	}
-	printf("[+]Server Socket is created.\n");
-
-	memset(&serverAddr, '\0', sizeof(serverAddr));
-	serverAddr.sin_family = AF_INET;
-	serverAddr.sin_port = htons(PORT);
-	serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1");
-
-	ret = bind(sockfd, (struct sockaddr*)&serverAddr, sizeof(serverAddr));
-	if(ret < 0){
-		printf("[-]Error in binding.\n");
-		exit(1);
+	
+	serveraddr.sin_family = AF_INET;
+	serveraddr.sin_port = htons(port);
+	serveraddr.sin_addr.s_addr = htonl(INADDR_ANY);
+	
+	s = bind(sersocket,(struct sockaddr *)&serveraddr,sizeof(serveraddr));
+	
+	if(s==0)
+	{
+		printf("\nBind success\n");
 	}
-	printf("[+]Bind to port %d\n", 4444);
-
-	if(listen(sockfd, 10) == 0){
-		printf("[+]Listening....\n");
-	}else{
-		printf("[-]Error in binding.\n");
+	
+	
+	if(listen(sersocket,10)==0)
+	{
+		printf("Listening...\n");
 	}
+	else{
+		printf("\nError in binding");
+	}
+		
 
-
-	while(1){
-		newSocket = accept(sockfd, (struct sockaddr*)&newAddr, &addr_size);
-		if(newSocket < 0){
+	
+	while(1)
+	{
+		
+		newsocket = accept(sersocket,(struct sockaddr *)&newaddr,&size);
+		if(newsocket<0)
+		{
 			exit(1);
 		}
-		printf("Connection accepted from %s:%d\n", inet_ntoa(newAddr.sin_addr), ntohs(newAddr.sin_port));
-
-		if((childpid = fork()) == 0){
-			close(sockfd);
-
-			while(1){
-				recv(newSocket, buffer, 1024, 0);
-				if(strcmp(buffer, ":exit") == 0){
-					printf("Disconnected from %s:%d\n", inet_ntoa(newAddr.sin_addr), ntohs(newAddr.sin_port));
+		printf("\nConnected from client address:%s PORT:%d\n",inet_ntoa(newaddr.sin_addr),ntohs(newaddr.sin_port));
+		
+		
+		
+		if((child=fork())==0)
+		{
+			close(sersocket);
+			while(1)
+			{
+				recv(newsocket,buffer,sizeof(buffer),0);
+				if(strcmp(buffer,"exit\n")==0)
+				{
+					printf("\nDisconnecting from client address:%s PORT:%d",inet_ntoa(newaddr.sin_addr),ntohs(newaddr.sin_port));
 					break;
-				}else{
-					printf("Client: %s\n", buffer);
-					send(newSocket, buffer, strlen(buffer), 0);
-					bzero(buffer, sizeof(buffer));
+				}
+				else
+				{
+					printf("\nClient: %s",buffer);
+					send(newsocket,buffer,sizeof(buffer),0);
 				}
 			}
 		}
-
+		
 	}
-
-	close(newSocket);
-
-
-	return 0;
+	close(newsocket);
 }
